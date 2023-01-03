@@ -1,11 +1,13 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './style.css';
 
 export default function App() {
+  const clickBtn = () => {
+    alert('you Clicked motherFucker');
+  };
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <button onClick={clickBtn}>hello motherFucker</button>
     </div>
   );
 }
