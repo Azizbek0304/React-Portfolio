@@ -2,7 +2,10 @@ import React from 'react'
 
 function Header() {
   return (
-    <div>Header</div>
+    <div>
+      <h1>Click on it!</h1>
+      <button>Click</button>
+    </div>
   )
 }
 
