@@ -147,7 +147,7 @@
 
 @media screen and (max-width: 768px) {
   .home__content {
-    grid-template-columns: repeat(2, 0.5fr);
+    grid-template-columns: 0.5fr 3fr;
     padding-top: 3.5rem;
   }
 
