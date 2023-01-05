@@ -4,13 +4,13 @@ import './header.css';
 function Header() {
   const [Toggle, showMenu] = useState(false);
   return (
-    <header classname="header">
+    <header className="header">
       <nav className="nav container">
         <a href="#" className="nav__logo">
-          Smith
+          Khursanov
         </a>
         <div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'}>
-          <ul className="nav__list grid">
+          <ul className="nav__list">
             <li className="nav__item">
               <a href="#home" className="nav__link active-link">
                 <i className="uil uil-estate nav__icon"></i>
@@ -50,13 +50,13 @@ function Header() {
           </ul>
 
           <i
-            class="uil uil-times nav__close"
+            className="uil uil-times nav__close"
             onClick={() => showMenu(!Toggle)}
           ></i>
         </div>
 
         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-          <i class="uil uil-apps"></i>
+          <i className="uil uil-apps"></i>
         </div>
       </nav>
     </header>
