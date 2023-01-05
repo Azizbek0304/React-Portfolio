@@ -189,9 +189,6 @@ img {
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-  :root {
-    --big-font-size: 1.9rem;
-  }
   body {
     margin: 0 0 var(--header-height) 0;
   }
@@ -211,7 +208,7 @@ img {
 /* For small devices */
 @media screen and (max-width: 350px) {
   :root {
-    --big-font-size: 1.8rem;
+    --big-font-size: 2.75rem;
   }
 
   .container {
