@@ -1,5 +1,4 @@
 import React from 'react';
-import CV from '../../assests/Smith-CV.pdf';
 import AboutImg from '../../assets/about.jpg';
 import './about.css';
 
@@ -11,7 +10,9 @@ function About() {
 
       <div className="about__container container grid">
 
-        <div className="about__data"></div>
+        <div className="about__data">
+        <img src={AboutImg} alt="" className="about__img" />
+        </div>
       </div>
     </section>
   );
