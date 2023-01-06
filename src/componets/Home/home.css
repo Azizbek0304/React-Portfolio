@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-.home__socials {
+.home__social {
   display: grid;
   grid-template-columns: max-content;
   row-gap: 1rem;
@@ -55,7 +55,7 @@
 }
 
 .home_img {
-  background: url('../../assets//profile.jpg');
+  background: url('../../assets//profilePhoto.jpg');
   background-repeat: no-repeat;
   background-position: center;
   justify-self: center;
