@@ -2,7 +2,7 @@ import React from 'react';
 
 function HomeData() {
   return (
-    <div className="home__social">
+    <div className="home__data">
       <h1 className="home__title">
         Aziz Khursanov
         <svg
@@ -58,7 +58,7 @@ function HomeData() {
 
       <h3 className="home__subtitle">Front-end(React) Developer</h3>
 
-      <p className="description">
+      <p className="home__description">
         I'm a creative Front-end developer based in React.Js, and I'm very
         passionate and Dedicated to my wrok.
       </p>
@@ -83,6 +83,7 @@ function HomeData() {
           ></path>
         </svg>
       </a>
+      
     </div>
   );
 }
