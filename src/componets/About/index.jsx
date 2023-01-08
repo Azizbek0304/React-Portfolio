@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutImg from '../../assets/about.jpg';
+import Info from '../About/Info';
 import './about.css';
 
 function About() {
@@ -9,9 +9,15 @@ function About() {
       <span className="section__subtitle">My introduction</span>
 
       <div className="about__container container grid">
-
+        <div alt="" className="about__img" />
         <div className="about__data">
-        <img src={AboutImg} alt="" className="about__img" />
+          <Info />
+
+          <p className="about__description">
+            React.js Frontend developer, I create web pages with UI / UX user
+            interface, Have a good knowladge of the JavaScript,React and Redux ,
+            I'm the proud ofs my teachers
+          </p>
         </div>
       </div>
     </section>
