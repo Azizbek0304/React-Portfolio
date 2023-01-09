@@ -1,6 +1,6 @@
 import React from 'react';
 import Info from '../About/Info';
-import CV from 'https://github.com/Azizbek0304/React-Portfolio/blob/main/src/assets/John-Cv.pdf';
+
 import './about.css';
 
 function About() {
@@ -24,7 +24,7 @@ function About() {
             I'm the proud ofs my teachers
           </p>
 
-          <a download="" href={CV} className="button button--flex">
+          <a download="" className="button button--flex">
             Download CV
             <svg
               class="button__icon"
