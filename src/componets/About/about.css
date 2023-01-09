@@ -1,0 +1,5 @@
+.about__container {
+  grid-template-columns: repeat(2fr, 1);
+  align-items: center;
+  column-gap: 4rem;
+}
