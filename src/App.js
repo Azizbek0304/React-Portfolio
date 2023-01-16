@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './componets/Header';
 import Home from './componets/Home';
 import About from './componets/About';
+import Skills from './componets/Skills';
 import './style.css';
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
       <main className="main">
         <Home />
         <About />
+        <Skills />
       </main>
     </div>
   );
