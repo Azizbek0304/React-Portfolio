@@ -4,7 +4,7 @@ function HomeData() {
   return (
     <div className="home__data">
       <h1 className="home__title">
-        Aziz Khursanov
+        AbduAziz Khursanov
         <svg
           width="36"
           height="36"
@@ -83,7 +83,6 @@ function HomeData() {
           ></path>
         </svg>
       </a>
-      
     </div>
   );
 }

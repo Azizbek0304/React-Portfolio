@@ -1,5 +1,6 @@
 import React from 'react';
-import Frontend from '../Skills/frontend';
+import Frontend from './frontend';
+import './skills.css';
 
 function Skills() {
   return (
@@ -8,6 +9,7 @@ function Skills() {
       <span className="section__subtitle">My technical level</span>
 
       <div className="skills__container container grid">
+        <Frontend />
         <Frontend />
       </div>
     </section>
