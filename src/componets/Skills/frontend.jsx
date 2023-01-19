@@ -30,7 +30,7 @@ function Frontend() {
 
             <div>
               <h3 className="skills__name">JavaScript</h3>
-              <span className="skills__level">intermdiate</span>
+              <span className="skills__level">intermediate</span>
             </div>
           </div>
         </div>
@@ -40,7 +40,7 @@ function Frontend() {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Bootstrap&Tailwind</h3>
+              <h3 className="skills__name">Bootstrap</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
@@ -49,8 +49,8 @@ function Frontend() {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Git</h3>
-              <span className="skills__level">Basic</span>
+              <h3 className="skills__name">Tailwind</h3>
+              <span className="skills__level">intermediate</span>
             </div>
           </div>
 
@@ -67,7 +67,7 @@ function Frontend() {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Firebase</h3>
+              <h3 className="skills__name">Redux</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>

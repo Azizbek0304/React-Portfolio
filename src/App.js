@@ -3,6 +3,7 @@ import Header from './componets/Header';
 import Home from './componets/Home';
 import About from './componets/About';
 import Skills from './componets/Skills';
+import Services from './componets/Services';
 import './style.css';
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
         <Home />
         <About />
         <Skills />
+        <Services />
       </main>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from 'react';
+import Additional from '../Skills/additional';
 import Frontend from './frontend';
 import './skills.css';
 
@@ -10,7 +11,7 @@ function Skills() {
 
       <div className="skills__container container grid">
         <Frontend />
-        <Frontend />
+        <Additional />
       </div>
     </section>
   );
