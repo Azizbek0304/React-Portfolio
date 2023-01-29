@@ -4,7 +4,7 @@ import Home from './componets/Home';
 import About from './componets/About';
 import Skills from './componets/Skills';
 import Services from './componets/Services';
-import Qualification from './componets/Qualificaton';
+import Qualification from './componets/Qualification';
 import './style.css';
 
 export default function App() {
@@ -16,7 +16,7 @@ export default function App() {
         <About />
         <Skills />
         <Services />
-        <Qualification /> 
+        <Qualification />
       </main>
     </div>
   );
