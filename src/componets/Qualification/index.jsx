@@ -23,7 +23,7 @@ function Qualification() {
             <div className="qualification__content">
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualification__title"></h3>
+                  <h3 className="qualification__title">Director</h3>
                   <span className="qualifiation__subtitle">
                     Spain - Institute
                   </span>
@@ -49,7 +49,7 @@ function Qualification() {
                 </div>
 
                 <div>
-                  <h3 className="qualification__title"></h3>
+                  <h3 className="qualification__title">Director</h3>
                   <span className="qualifiation__subtitle">
                     Spain - Institute
                   </span>
@@ -62,7 +62,7 @@ function Qualification() {
               </div>
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualification__title"></h3>
+                  <h3 className="qualification__title">Director</h3>
                   <span className="qualifiation__subtitle">
                     Spain - Institute
                   </span>
@@ -88,7 +88,7 @@ function Qualification() {
                 </div>
 
                 <div>
-                  <h3 className="qualification__title"></h3>
+                  <h3 className="qualification__title">Director</h3>
                   <span className="qualifiation__subtitle">
                     Spain - Institute
                   </span>
