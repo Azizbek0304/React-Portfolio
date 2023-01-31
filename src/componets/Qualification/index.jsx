@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './qualification.css';
 
 function Qualification() {
-  const [toggleState, setToggleState] = useState(1);
+  const [toggleState, setToggleState] = useState();
   const toggleTab = (index) => {
     setToggleState(index);
   };
@@ -74,7 +74,7 @@ function Qualification() {
 
               <div>
                 <h3 className="qualification__title">Director</h3>
-                <span className="qualifiation__subtitle">
+                <span className="qualification__subtitle">
                   Spain - Institute
                 </span>
 
@@ -95,8 +95,8 @@ function Qualification() {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Director</h3>
-                <span className="qualifiation__subtitle">
+                <h3 className="qualification__title">director </h3>
+                <span className="qualification__subtitle">
                   Spain - Institute
                 </span>
 
@@ -122,7 +122,7 @@ function Qualification() {
 
               <div>
                 <h3 className="qualification__title">Director</h3>
-                <span className="qualifiation__subtitle">
+                <span className="qualification__subtitle">
                   Spain - Institute
                 </span>
 
