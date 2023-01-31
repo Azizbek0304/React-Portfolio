@@ -60,6 +60,9 @@ function Qualification() {
                   </div>
                 </div>
               </div>
+            </div>
+
+            <div className="qualification__content qualification__content-active">
               <div className="qualification__data">
                 <div>
                   <h3 className="qualification__title">Director</h3>
