@@ -4,6 +4,7 @@ import Home from './componets/Home';
 import About from './componets/About';
 import Skills from './componets/Skills';
 import Services from './componets/Services';
+import Contact from './componets/Contact';
 import Qualification from './componets/Qualification';
 import './style.css';
 
@@ -17,6 +18,7 @@ export default function App() {
         <Skills />
         <Services />
         <Qualification />
+        <Contact />
       </main>
     </div>
   );
