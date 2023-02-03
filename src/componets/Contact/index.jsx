@@ -13,7 +13,7 @@ function Contact() {
 
           <div className="contact__info">
             <div className="contact__card">
-              <i className="bx bx contact__card-icon"></i>
+              <i className="bx bx-mail-send contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">
@@ -27,7 +27,7 @@ function Contact() {
             </div>
 
             <div className="contact__card">
-              <i className="bx bx contact__card-icon"></i>
+              <i className="bx bxl-telegram contact__card-icon"></i>
 
               <h3 className="contact__card-title">Telegram</h3>
               <span className="contact__card-data">https://t.me/Aziz7kd</span>
@@ -39,7 +39,7 @@ function Contact() {
             </div>
 
             <div className="contact__card">
-              <i className="bx bx contact__card-icon"></i>
+              <i className="bx bxs-phone contact__card-icon"></i>
 
               <h3 className="contact__card-title">Number</h3>
               <span className="contact__card-data">+998911397274</span>
