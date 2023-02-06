@@ -29,7 +29,7 @@ function Footer() {
           </a>
           <a
             href="https://github.com/Azizbek0304/React-Portfolio"
-            className="fooer__social-link"
+            className="footer__social-link"
             target="_blank"
           >
             <i className="uil uil-github-alt"></i>

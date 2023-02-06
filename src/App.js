@@ -5,12 +5,14 @@ import About from './componets/About';
 import Skills from './componets/Skills';
 import Services from './componets/Services';
 import Contact from './componets/Contact';
+import Footer from './componets/Footer';
+import ScrollUp from './componets/ScrollUp';
 import Qualification from './componets/Qualification';
 import './style.css';
 
 export default function App() {
   return (
-    <div>
+    <>
       <Header />
       <main className="main">
         <Home />
@@ -20,7 +22,10 @@ export default function App() {
         <Qualification />
         <Contact />
       </main>
-    </div>
+
+      <Footer />
+      <ScrollUp />
+    </>
   );
 }
 
