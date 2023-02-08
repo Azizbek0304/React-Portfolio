@@ -12,8 +12,8 @@
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
+  --body-color: #f1faee;
+  --container-color: #fefdff;
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
@@ -135,6 +135,7 @@ img {
 }
 
 /*=============== LAYOUT ===============*/
+
 .container {
   max-width: 968px;
   margin-left: auto;

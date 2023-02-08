@@ -25,33 +25,6 @@ function Contact() {
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
-
-            <div className="contact__card">
-              <i className="bx bxl-telegram contact__card-icon"></i>
-
-              <h3 className="contact__card-title">Telegram</h3>
-              <span className="contact__card-data">https://t.me/Aziz7kd</span>
-
-              <a href="" className="contact__button">
-                Write me
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-              </a>
-            </div>
-
-            <div className="contact__card">
-              <i className="bx bxs-phone contact__card-icon"></i>
-
-              <h3 className="contact__card-title">Number</h3>
-              <span className="contact__card-data">+998911397274</span>
-
-              <a
-                href="mailto:azizbek004xursanov@gmail.com.com"
-                className="contact__button"
-              >
-                Write me
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-              </a>
-            </div>
           </div>
         </div>
 
@@ -60,7 +33,6 @@ function Contact() {
 
           <form className="contact__form">
             <div className="contact__form-div">
-              <label className="contact__form-tag">Name</label>
               <input
                 type="text"
                 name="name"
@@ -70,7 +42,6 @@ function Contact() {
             </div>
 
             <div className="contact__form-div">
-              <label className="contact__form-tag">Mail</label>
               <input
                 type="email"
                 name="email"
@@ -80,7 +51,6 @@ function Contact() {
             </div>
 
             <div className="contact__form-div contact__form-area">
-              <label className="contact__form-tag">Project</label>
               <textarea
                 name="project"
                 cols="30"
