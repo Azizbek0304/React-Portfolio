@@ -14,7 +14,7 @@ function About() {
           alt=""
           className="about__img"
         />
-        <div className="about__data">
+        <div className="about__data"> 
           <Info />
 
           <p className="about__description">

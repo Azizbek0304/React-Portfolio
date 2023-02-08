@@ -52,6 +52,7 @@
 .home__description {
   max-width: 400px;
   margin-bottom: var(--mb-3);
+  
 }
 
 .home__img {
@@ -143,6 +144,11 @@
   .home__scroll {
     margin-left: 7.5rem;
   }
+
+  .home__title,
+  .home__description {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -174,7 +180,18 @@
   }
 }
 
+@media screen and (max-width: 567px) {
+  .home__title,
+  .home__description {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 350px) {
+  .home__title,
+  .home__description {
+    text-align: center;
+  }
   .home__img {
     width: 180px;
     height: 180px;
