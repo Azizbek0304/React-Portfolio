@@ -14,6 +14,11 @@ function Footer() {
             </a>
           </li>
           <li>
+            <a href="#home" className="footer__link">
+              Home
+            </a>
+          </li>
+          <li>
             <a href="#portfolio" className="footer__link">
               Projects
             </a>
