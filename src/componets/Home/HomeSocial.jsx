@@ -3,10 +3,18 @@ import React from 'react';
 function HomeSocial() {
   return (
     <div className="home__social">
-      <a href="" className="home__social-icon" target="_blank">
+      <a
+        href="https://instagram.com/khursanoff_o4?igshid=YmMyMTA2M2Y="
+        className="home__social-icon"
+        target="_blank"
+      >
         <i className="uil uil-instagram"></i>
       </a>
-      <a href="" className="home__social-icon" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/azizbek-khursanov-1782541a9"
+        className="home__social-icon"
+        target="_blank"
+      >
         <i className="uil uil-linkedin-alt"></i>
       </a>
       <a
