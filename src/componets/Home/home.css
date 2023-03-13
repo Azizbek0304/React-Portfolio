@@ -1,5 +1,5 @@
 .home {
-  background-image: linear-gradient(90deg, #F1FAEE 70% , #353C33 35%);
+  background-image: linear-gradient(90deg, #f1faee 66%, #353c33 40%);
 }
 .home__content {
   grid-template-columns: 116px repeat(2, 1fr);
