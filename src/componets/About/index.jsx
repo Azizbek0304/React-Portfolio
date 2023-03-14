@@ -14,7 +14,7 @@ function About() {
           alt=""
           className="about__img"
         />
-        <div className="about__data"> 
+        <div className="about__data">
           <Info />
 
           <p className="about__description">
@@ -23,7 +23,10 @@ function About() {
             I'm the proud ofs my teachers
           </p>
 
-          <a download="" className="button button--flex">
+          <a
+            href="https://drive.google.com/file/d/1UKsYTYYoXoh39BXKrsMoUwWA1UDAAOFU/view?usp=sharing"
+            className="button button--flex"
+          >
             Download CV
             <svg
               className="button__icon"
