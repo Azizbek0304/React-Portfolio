@@ -1,3 +1,6 @@
+.qualification {
+  background-image: linear-gradient(90deg, #353c33 15%, #f1faee 0%, #fafafa);
+}
 .qualification__container {
   max-width: 768px;
 }
