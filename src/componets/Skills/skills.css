@@ -1,6 +1,6 @@
 .skills {
   background-image: linear-gradient(90deg, #353c33 20%, #f1faee 0%, #fafafa);
-  animation: divBox__animate 6s ease-in-out infinite 1s;
+  animation: divBox__animate 10s ease-in-out infinite 1s;
 }
 
 @keyframes divBox__animate {
@@ -82,6 +82,10 @@
 }
 
 @media screen and (max-width: 576px) {
+  .skills {
+    animation: none;
+    padding-left: 4rem;
+  }
   .skills__container {
     grid-template-columns: 1fr;
     row-gap: 2rem;
@@ -90,9 +94,10 @@
   .skills__content {
     padding: 1.5rem;
   }
+
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 350px) {
   .skills__box {
     column-gap: 1.25rem;
   }
