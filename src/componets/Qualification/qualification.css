@@ -1,5 +1,5 @@
 .qualification {
-  background-image: linear-gradient(90deg, #353c33 15%, #f1faee 0%, #fafafa);
+  background-image: linear-gradient(90deg, #353c33 15%, #f6f6f6 0%);
 }
 .qualification__container {
   max-width: 768px;
@@ -107,10 +107,8 @@
   }
 }
 
-
-@media screen and (max-width: 350PX) {
-.qualification__data {
-  gap: .5rem;
+@media screen and (max-width: 350px) {
+  .qualification__data {
+    gap: 0.5rem;
+  }
 }
-}
-
