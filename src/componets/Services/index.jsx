@@ -8,7 +8,7 @@ function Services() {
   };
   return (
     <section className="services section" id="services">
-      <h2 className="section__title">Services</h2>
+      <h2 className="section__title">Service</h2>
       <span className="section__subtitle">What I offer</span>
 
       <div className="services__container container grid">
@@ -62,7 +62,7 @@ function Services() {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
 
-                  <p className="services__modal-info">improve functionality</p>
+                  <p className="services__modal-info">Improve functionality</p>
                 </li>
               </ul>
             </div>
