@@ -3,9 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "prop-types": "^15.5.4",
     "react": "^18.2.0",
+    "react-animated-cursor": "^2.5.2",
     "react-dom": "^18.2.0",
-    "react-typewriter-effect": "^1.1.0"
+    "react-type-animation": "^2.1.2"
   },
   "scripts": {
     "start": "react-scripts start",

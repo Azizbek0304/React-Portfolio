@@ -7,12 +7,14 @@ import Services from './componets/Services';
 import Contact from './componets/Contact';
 import Footer from './componets/Footer';
 import ScrollUp from './componets/ScrollUp';
+import AnimatedCursor from './componets/AnimatedCursor';
 import Qualification from './componets/Qualification';
 import './style.css';
 
 export default function App() {
   return (
     <>
+      <AnimatedCursor />
       <Header />
       <main className="main">
         <Home />
