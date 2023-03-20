@@ -10,6 +10,7 @@ function AnimatedCursor() {
       outerAlpha={0.2}
       innerScale={0.7}
       outerScale={2}
+      trailingSpeed={12}
       clickables={[
         'a',
         'input[type="text"]',
