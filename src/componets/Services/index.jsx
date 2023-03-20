@@ -56,9 +56,9 @@ function Services() {
                       sequence={[
                         'Webpage development',
                         2000,
-                        'I develop User Interference',
+                        'I develop User Interface',
                         2000,
-                        'Improve functionality',
+                        'Enhance functionality',
                         3000,
                         () => {
                           console.log('Done typing!');
