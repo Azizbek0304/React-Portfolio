@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import TypeWriterEffect from 'react-typewriter-effect';
+import { TypeAnimation } from 'react-type-animation';
 import './services.css';
 
 function Services() {
@@ -52,16 +52,22 @@ function Services() {
                   <i className="uil uil-check-circle services__modal-icon"></i>
 
                   <p className="services__modal-info">
-                    <TypeWriterEffect
-                      startDelay={2000}
-                      cursorColor="#3F3D56"
-                      multiText={[
-                        'I develop the user interface',
-                        'Web page development',
+                    <TypeAnimation
+                      sequence={[
+                        'Webpage development',
+                        2000,
+                        'I develop User Interference',
+                        2000,
                         'Improve functionality',
+                        3000,
+                        () => {
+                          console.log('Done typing!');
+                        },
                       ]}
-                      multiTextDelay={1000}
-                      typeSpeed={50}
+                      wrapper="div"
+                      cursor={true}
+                      repeat={Infinity}
+                      style={{ fontSize: '2em' }}
                     />
                   </p>
                 </li>
