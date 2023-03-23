@@ -1,7 +1,3 @@
-.services {
-  min-height: 99vh;
-}
-
 .services__container {
   justify-content: center;
   column-gap: 1.8rem;
@@ -13,6 +9,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--container-color);
   padding: 6rem 0 2rem 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .services__icon {
@@ -123,16 +120,7 @@
   visibility: visible;
 }
 
-@media screen and (max-width: 992px) {
-  .services__container {
-    grid-template-columns: repeat(3, 218px);
-  }
-}
-
 @media screen and (max-width: 768px) {
-  .services__container {
-    grid-template-columns: repeat(2, 1fr);
-  }
 
   .services__content {
     padding: 3.5rem 0.5rem 1.25rem 1.5rem;
