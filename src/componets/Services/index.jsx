@@ -51,7 +51,7 @@ function Services() {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
 
-                  <p className="services__modal-info">
+                  <div className="services__modal-info">
                     <TypeAnimation
                       sequence={[
                         'Webpage development',
@@ -64,12 +64,12 @@ function Services() {
                           console.log('Done typing!');
                         },
                       ]}
-                      wrapper="div"
+                      wrapper="p"
                       cursor={true}
                       repeat={Infinity}
                       style={{ fontSize: '2em' }}
                     />
-                  </p>
+                  </div>
                 </li>
               </ul>
             </div>
