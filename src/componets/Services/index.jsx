@@ -14,31 +14,15 @@ function Services() {
 
       <div className="services__container container grid">
         <div className="services__content">
-          <div>
+          <div className="services__big__title">
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">
               Front-end(React) <br /> Developer
             </h3>
           </div>
 
-          <span className="services__button" onClick={() => toggleTab(2)}>
-            View More
-            <i className="uil uil-arrow-right services__button-icon"></i>
-          </span>
-
-          <div
-            className={
-              toggleState === 2
-                ? 'services__modal active-modal'
-                : 'services__modal'
-            }
-          >
+          <div className="services__modal">
             <div className="services__modal-content">
-              <i
-                onClick={() => toggleTab(0)}
-                className="uil uil-times services__modal-close"
-              ></i>
-
               <h3 className="services__modal-title">
                 Front-end(React) developer
               </h3>
