@@ -12,7 +12,7 @@ import Qualification from './componets/Qualification';
 import './style.css';
 
 export default function App() {
-  const shouldShowCursor = window.innerWidth > 765;
+  const shouldShowCursor = window.innerWidth > 992;
 
   return (
     <>
