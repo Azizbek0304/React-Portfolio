@@ -1,11 +1,54 @@
 import React, { useState } from 'react';
+import { TypeAnimation } from 'react-type-animation';
 import './qualification.css';
 
 function Qualification() {
-  const [toggleState, setToggleState] = useState(1);
+  const [activeTab, setActiveTab] = useState(1);
   const toggleTab = (index) => {
-    setToggleState(index);
+    setActiveTab(index);
   };
+
+  const tabsData = [
+    {
+      title: 'Education',
+      icon: 'uil-graduation-cap',
+      content: [
+        {
+          id: 1,
+          title: 'Director at Spain - Institute',
+          subtitle: 'Spain - Institute',
+          date: '2021 - Present',
+        },
+        {
+          id: 2,
+          title: 'Course at ABC University',
+          subtitle: 'ABC University',
+          date: '2019 - 2021',
+        },
+        // Add more education content here if needed
+      ],
+    },
+    {
+      title: 'Experience',
+      icon: 'uil-briefcase-alt',
+      content: [
+        {
+          id: 1,
+          title: 'Director at Spain - Institute',
+          subtitle: 'Spain - Institute',
+          date: '2021 - Present',
+        },
+        {
+          id: 2,
+          title: 'Internship at XYZ Company',
+          subtitle: 'XYZ Company',
+          date: '2019 - 2020',
+        },
+        // Add more experience content here if needed
+      ],
+    },
+  ];
+
   return (
     <section className="qualification section" id="portfolio">
       <h2 className="section__title">Qualification</h2>
@@ -13,126 +56,125 @@ function Qualification() {
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
-          <div
-            onClick={() => toggleTab(1)}
-            className={
-              toggleState === 1
-                ? 'qualification__button qualification__active button-flex'
-                : 'qualification__button button-flex'
-            }
-          >
-            <i className="uil uil-graduation-cap qualification__icon"></i>
-            Education
-          </div>
-
-          <div
-            onClick={() => toggleTab(2)}
-            className={
-              toggleState === 2
-                ? 'qualification__button qualification__active button-flex'
-                : 'qualification__button button-flex'
-            }
-          >
-            <i className="uil uil-briefcase-alt qualification__icon"></i>
-            Experience
-          </div>
+          {tabsData.map((tab, index) => (
+            <div
+              key={index}
+              onClick={() => toggleTab(index + 1)}
+              className={`qualification__button button-flex ${
+                activeTab === index + 1 ? 'qualification__active' : ''
+              }`}
+            >
+              <i className={`uil ${tab.icon} qualification__icon`}></i>
+              {tab.title}
+            </div>
+          ))}
         </div>
         <div className="qualification__sections">
-          <div
-            className={
-              toggleState === 1
-                ? 'qualification__content qualification__content-active'
-                : 'qualification__content'
-            }
-          >
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Director</h3>
-                <span className="qualification__subtitle">
-                  Spain - Institute
-                </span>
+          {tabsData.map((tab, index) => (
+            <div
+              key={index}
+              className={`qualification__content ${
+                activeTab === index + 1 ? 'qualification__content-active' : ''
+              }`}
+            >
+              {tab.content.map((item) => (
+                <>
+                  {item.id % 2 === 0 ? (
+                    <div className="qualification__data" key={item.id}>
+                      <div></div>
 
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>
-                  2021 - Present
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
+                      <div>
+                        <span className="qualification__rounder"></span>
+                        <span className="qualification__line"></span>
+                      </div>
+                      <div>
+                        <h3 className="qualification__title">
+                          <TypeAnimation
+                            key={activeTab}
+                            delay={6000}
+                            sequence={[item.title, 2000]}
+                            wrapper="span"
+                            cursor={false}
+                            repeat={0}
+                            style={{ display: 'inline-block' }}
+                          />
+                        </h3>
+                        <span className="qualification__subtitle">
+                          <TypeAnimation
+                            key={activeTab}
+                            delay={8000}
+                            sequence={[item.subtitle, 2000]}
+                            wrapper="span"
+                            cursor={false}
+                            repeat={0}
+                            style={{ display: 'inline-block' }}
+                          />
+                        </span>
+                        <div className="qualification__calendar">
+                          <i className="uil uil-calendar-alt"></i>{' '}
+                          <TypeAnimation
+                            key={activeTab}
+                            delay={10000}
+                            sequence={[item.date, 2000]}
+                            wrapper="span"
+                            cursor={false}
+                            repeat={0}
+                            style={{ display: 'inline-block' }}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="qualification__data" key={item.id}>
+                      <div>
+                        <h3 className="qualification__title">
+                          <TypeAnimation
+                            key={activeTab}
+                            sequence={[item.title, 2000]}
+                            wrapper="span"
+                            cursor={false}
+                            repeat={0}
+                            style={{ display: 'inline-block' }}
+                          />
+                        </h3>
+                        <span className="qualification__subtitle">
+                          <TypeAnimation
+                            key={activeTab}
+                            sequence={[item.subtitle, 2000]}
+                            wrapper="span"
+                            cursor={false}
+                            repeat={0}
+                            style={{
+                              display: 'inline-block',
+                              animationDelay: '2s',
+                            }}
+                          />
+                        </span>
+                        <div className="qualification__calendar">
+                          <i className="uil uil-calendar-alt"></i>{' '}
+                          <TypeAnimation
+                            key={activeTab}
+                            sequence={[item.date, 2000]}
+                            wrapper="span"
+                            cursor={false}
+                            repeat={0}
+                            style={{
+                              display: 'inline-block',
+                              animationDelay: '4s',
+                            }}
+                          />
+                        </div>
+                      </div>
+                      <div>
+                        <span className="qualification__rounder"></span>
+                        <span className="qualification__line"></span>
+                      </div>
+                    </div>
+                  )}
+                </>
+              ))}
             </div>
-
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification__title">Director</h3>
-                <span className="qualification__subtitle">
-                  Spain - Institute
-                </span>
-
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>
-                  2021 - Present
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            className={
-              toggleState === 2
-                ? 'qualification__content qualification__content-active'
-                : 'qualification__content'
-            }
-          >
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">director </h3>
-                <span className="qualification__subtitle">
-                  Spain - Institute
-                </span>
-
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>
-                  2021 - Present
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification__title">Director</h3>
-                <span className="qualification__subtitle">
-                  Spain - Institute
-                </span>
-
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>
-                  2021 - Present
-                </div>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
