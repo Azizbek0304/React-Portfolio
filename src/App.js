@@ -12,9 +12,11 @@ import Qualification from './componets/Qualification';
 import './style.css';
 
 export default function App() {
+  const shouldShowCursor = window.innerWidth > 765;
+
   return (
     <>
-      <AnimatedCursor />
+      {shouldShowCursor && <AnimatedCursor />}
       <Header />
       <main className="main">
         <Home />
@@ -30,5 +32,3 @@ export default function App() {
     </>
   );
 }
-
-// https://join.com/companies/deepsign/6770603-frontend-developer-react?pid=d7cb2e8e859c62cd7f75
