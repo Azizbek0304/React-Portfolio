@@ -15,15 +15,15 @@ function Qualification() {
       content: [
         {
           id: 1,
-          title: 'Director at Spain - Institute',
-          subtitle: 'Spain - Institute',
-          date: '2021 - Present',
+          title: 'Front-end dev. - Fintech',
+          subtitle: 'Tashkent - Education centre',
+          date: '2022 - 2023',
         },
         {
           id: 2,
-          title: 'Course at ABC University',
-          subtitle: 'ABC University',
-          date: '2019 - 2021',
+          title: 'Financial management - MDIST',
+          subtitle: 'Tashkent - University',
+          date: '2021 - present',
         },
         // Add more education content here if needed
       ],
@@ -34,15 +34,9 @@ function Qualification() {
       content: [
         {
           id: 1,
-          title: 'Director at Spain - Institute',
-          subtitle: 'Spain - Institute',
-          date: '2021 - Present',
-        },
-        {
-          id: 2,
-          title: 'Internship at XYZ Company',
-          subtitle: 'XYZ Company',
-          date: '2019 - 2020',
+          title: 'Front-end dev.(intern) - Fintech Hub',
+          subtitle: 'Tashkent - innovation centre',
+          date: '2022 - 2023',
         },
         // Add more experience content here if needed
       ],
