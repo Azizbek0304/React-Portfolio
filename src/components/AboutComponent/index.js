@@ -2,7 +2,7 @@ import React from 'react';
 import Info from './Info';
 import './about.css';
 
-function About() {
+function AboutComponent() {
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About Me</h2>
@@ -60,4 +60,4 @@ function About() {
   );
 }
 
-export default About;
+export default AboutComponent;

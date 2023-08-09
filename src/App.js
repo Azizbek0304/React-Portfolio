@@ -13,14 +13,15 @@ import Contact from './pages/Contact';
 import './style.css';
 
 export default function App() {
+  const shouldShowCursor = window.innerWidth > 992;
   return (
     <>
-      <AnimatedCursor /> {/* Include AnimatedCursor component here */}
+      {shouldShowCursor && <AnimatedCursor />}
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/about" element={<About />} />
-          <Route path="/skills" element={<Skills />} />
+        <Route path="/about" element={<About />} />
+          {/* <Route path="/skills" element={<Skills />} />
           <Route path="/services" element={<Services />} />
           <Route path="/qualification" element={<Qualification />} />
           <Route path="/contact" element={<Contact />} /> */}
