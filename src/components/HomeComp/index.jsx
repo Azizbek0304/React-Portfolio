@@ -4,7 +4,7 @@ import Social from './HomeSocial.jsx';
 import Datas from './HomeData.jsx';
 import ScrollDown from './ScrollDown.jsx';
 
-function Home() {
+function HomeComponent() {
   return (
     <section className="home section" id="home">
       <div className="home__container container grid">
@@ -19,4 +19,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomeComponent;
