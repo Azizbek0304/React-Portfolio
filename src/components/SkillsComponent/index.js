@@ -3,7 +3,7 @@ import Additional from '../Skills/additional';
 import Frontend from './frontend';
 import './skills.css';
 
-function Skills() {
+function SkillsComponent() {
   return (
     <section className="skills section" id="skills">
       <h2 className="section__title">Skills</h2>
@@ -17,4 +17,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default SkillsComponent;
