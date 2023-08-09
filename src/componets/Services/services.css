@@ -10,6 +10,8 @@
   flex-direction: column;
   align-items: center;
   border: 2px solid rgba(0, 0, 0, 0.1);
+  border-bottom: none;
+  border-right: none;
   background-color: var(--container-color);
   padding: 2rem 0;
   margin-bottom: 2rem;
