@@ -7,7 +7,7 @@ import AnimatedCursor from './components/AnimatedCursor'; // Import the Animated
 import Home from './pages/Home';
 import About from './pages/About';
 import Skills from './pages/Skills';
-import Services from './pages/Services';
+import Service from './pages/Service';
 import Qualification from './pages/Qualification';
 import Contact from './pages/Contact';
 import './style.css';
@@ -22,8 +22,8 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
-        {/* <Route path="/services" element={<Services />} />
-          <Route path="/qualification" element={<Qualification />} />
+        <Route path="/services" element={<Service />} />
+        {/* <Route path="/qualification" element={<Qualification />} />
           <Route path="/contact" element={<Contact />} /> */}
       </Routes>
       <Footer />
