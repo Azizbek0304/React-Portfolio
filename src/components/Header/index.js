@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom';
 import './header.css';
 
 function Header() {
   const [Toggle, showMenu] = useState(false);
 
-  // Close the menu when a link is clicked
   const handleLinkClick = () => {
     showMenu(false);
   };

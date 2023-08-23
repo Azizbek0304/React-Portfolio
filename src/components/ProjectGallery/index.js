@@ -11,6 +11,7 @@ const ProjectGallery = ({ websiteUrls }) => {
             `https://iframe.ly/api/iframely?url=${encodeURIComponent(url)}`
           );
           const data = await response.json();
+          console.log(data);
           return data;
         })
       );
@@ -25,6 +26,7 @@ const ProjectGallery = ({ websiteUrls }) => {
     <div className="project-gallery">
       {previews.map((preview, index) => (
         <div key={index} className="project-item">
+          <h1>hi</h1>
           <div dangerouslySetInnerHTML={{ __html: preview.html }} />
         </div>
       ))}

@@ -8,20 +8,13 @@ const websiteUrls = [
   'https://codepen.io/Leader-the-bashful/pen/wvRwyNQ',
 ];
 
-const App = () => {
+const Portfolio = () => {
   return (
-    <div className="app">
-      <header className="header">
-        <h1>My Portfolio</h1>
-        <p>Welcome to my portfolio page.</p>
-      </header>
-
-      <main className="main">
-        <h2>Projects</h2>
-        <ProjectGallery websiteUrls={websiteUrls} />
-      </main>
-    </div>
+    <main className="main">
+      <h2>Projects</h2>
+      <ProjectGallery websiteUrls={websiteUrls} />
+    </main>
   );
 };
 
-export default App;
+export default Portfolio;
