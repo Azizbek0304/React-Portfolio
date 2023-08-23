@@ -33,7 +33,7 @@ function Qualification() {
       icon: 'uil-briefcase-alt',
       content: [
         {
-          id: 1,
+          id: 3,
           title: 'Front-end dev.(intern) - Fintech Hub',
           subtitle: 'Tashkent - innovation centre',
           date: '2022 - 2023',
