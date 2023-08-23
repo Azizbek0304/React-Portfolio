@@ -2,13 +2,16 @@ import React, { useState, useEffect } from 'react';
 
 const ProjectGallery = ({ websiteUrls }) => {
   const [previews, setPreviews] = useState([]);
+  const API = 'dd948a03a5c631775e1b86';
 
   useEffect(() => {
     async function fetchPreviews() {
       const previewData = await Promise.all(
         websiteUrls.map(async (url) => {
           const response = await fetch(
-            `https://iframe.ly/api/iframely?url=${encodeURIComponent(url)}`
+            `https://iframe.ly/api/iframely?url=${encodeURIComponent(
+              url
+            )}&api_key=${APi}`
           );
           const data = await response.json();
           console.log(data);
