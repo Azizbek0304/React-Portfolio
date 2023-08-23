@@ -11,10 +11,9 @@ const ProjectGallery = ({ websiteUrls }) => {
           const response = await fetch(
             `https://iframe.ly/api/iframely?url=${encodeURIComponent(
               url
-            )}&api_key=${APi}`
+            )}&api_key=${API}`
           );
           const data = await response.json();
-          console.log(data);
           return data;
         })
       );
