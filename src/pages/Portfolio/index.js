@@ -3,9 +3,11 @@ import ProjectGallery from '../../components/ProjectGallery';
 import './portfolio.css';
 
 const websiteUrls = [
-  'https://codepen.io/Leader-the-bashful/pen/rNoaayG',
+  'https://codepen.io/Leader-the-bashful/pen/VwqKZxX',
+  'https://codepen.io/Leader-the-bashful/pen/oNJbjLN',
+  'https://codepen.io/Leader-the-bashful/pen/OJrMVaN',
+  'https://codepen.io/Leader-the-bashful/pen/mdaVJLb',
   'https://codepen.io/Leader-the-bashful/pen/rNoaqob',
-  'https://codepen.io/Leader-the-bashful/pen/wvRwyNQ',
 ];
 
 const Portfolio = () => {
